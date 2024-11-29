@@ -16,7 +16,6 @@ const livenessDetectionResponse = livenessDetection({
     console.log(error);
   },
 });
-const { getVideoStream, stopLivenessDetection, pauseGettingFrames, resumeGettingFrames } = livenessDetectionResponse
 
 
 function App() {
